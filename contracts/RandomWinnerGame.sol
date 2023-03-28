@@ -4,7 +4,7 @@ pragma solidity ^0.8.9;
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@chainlink/contracts/src/v0.8/VRFConsumerBase.sol";
 
-contract randomWinnerGame is VRFConsumerBase, Ownable{
+contract RandomWinnerGame is VRFConsumerBase, Ownable{
     
     // chainlink variables
     // amount of LINK to send with the request
