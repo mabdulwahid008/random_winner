@@ -46,6 +46,8 @@ contract RandomWinnerGame is VRFConsumerBase, Ownable{
         maxPlayers = _maxPlayers;
         entryFee = _entryFee;
 
+        gameStarted = true;
+        
         gameId += 1;
 
         emit GameStarted(gameId, maxPlayers, entryFee);
